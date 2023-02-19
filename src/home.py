@@ -13,6 +13,7 @@ tableau_auth = TSC.PersonalAccessTokenAuth(
 server = TSC.Server(st.secrets["tableau"]["server_url"], use_server_version=True)
 
 
+
 # Get various data.
 # Explore the tableauserverclient library for more options.
 # Uses st.cache_data to only rerun when the query changes or after 10 min.
