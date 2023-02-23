@@ -39,7 +39,7 @@ with tab2:
         En ce sens, nos segments sont les suivants : 
     """
     )
-    st.image('./segments.jpeg', caption='Segments RFM')
+    st.image(r'./src/segments.jpeg', caption='Segments RFM')
 
 
     st.markdown(" Les segments que vous pouvez apercevoir ci-dessus sont le résultats des analyses effectuées dans les visualisations que vous trouverez sur notre interface web.")
