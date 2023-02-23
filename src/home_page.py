@@ -29,10 +29,10 @@ tab1, tab2 = st.tabs(["Qu'est ce qu'une segmentation RFM ?", "Résultats de notr
 
 with tab1:
     st.markdown("Qu'est ce qu'une segmentation RFM ?")
-        st.markdown("La segmentation RFM est un type de segmentation client basé sur 3 indicateurs :")
-        st.markdown("La récence qui fait référence à la notion de dernière activité du client (achats, visites sur le site e-commerce)")
-        st.markdown("La fréquence qui fait référence à la notion d'utilisation du service proposé sur une période donnée. Dans le cadre de notre étude, cela ferait référence au nombre de fois que le client ait eu recours à notre site.")
-        st.markdown("Le montant qui fait référence à la somme moyenne dépensée sur une période par le client.")
+    st.markdown("La segmentation RFM est un type de segmentation client basé sur 3 indicateurs :")
+    st.markdown("La récence qui fait référence à la notion de dernière activité du client (achats, visites sur le site e-commerce)")
+    st.markdown("La fréquence qui fait référence à la notion d'utilisation du service proposé sur une période donnée. Dans le cadre de notre étude, cela ferait référence au nombre de fois que le client ait eu recours à notre site.")
+    st.markdown("Le montant qui fait référence à la somme moyenne dépensée sur une période par le client.")
 
 with tab2:
     st.markdown("""### Résultats de notre segmentation
